@@ -1,3 +1,4 @@
+// PAGE 2
 //Number Of Dogs
 6
 
@@ -54,3 +55,38 @@ let numberOfTotalPoster = 40
 let numberOfRental = 1000
 let numberOfLostMoney = numberOfTotalPoster + numberOfRental
 let numberofMoneyMade = numberTotalTicket - numberOfLostMoney
+
+// PAGE 11
+let ticketsSold = 1000
+let ticketPrice = 3
+let printingCosts = 20
+let advertising = 50
+// Total takings
+let totalTakings = ticketPrice * ticketsSold
+
+// Jackpot
+let jackpot = totalTakings / 2
+
+// Expenses
+let totalExpenses = printingCosts + advertising
+
+// Profit
+let profit = totalTakings - jackpot - totalExpenses
+
+// Distribution
+let programmersCut = profit / 10 // This is the answer you want to get > 100! 👉 
+let friendsCut = profit - programmersCut
+
+// Page 12 
+let numberPhoneStorageGB = 8
+let numberOfUsedPhoneStorageGB = 3
+let numberOfReamingPhoneStorageGB = 5
+let numberofReamaningPhoneStorageMB =  numberOfReamingPhoneStorageGB * 1000
+let numberOfOneMinuteVideoMB = 150
+let numberOfTotalMinutes = numberofReamaningPhoneStorageMB / numberOfOneMinuteVideoMB
+// Above is the way the teacher showed me 
+// It will take 33 minutes to fill up the phone
+// Below is the way I did it 
+let numberOfTotalStorage = 8000 - 3000
+let numberOfMBVideo = 150
+let numberOfFullStorag = numberOfTotalStorage / numberOfMBVideo
