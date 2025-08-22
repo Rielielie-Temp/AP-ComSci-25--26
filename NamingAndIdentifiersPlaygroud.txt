@@ -86,7 +86,7 @@ let numberOfOneMinuteVideoMB = 150
 let numberOfTotalMinutes = numberofReamaningPhoneStorageMB / numberOfOneMinuteVideoMB
 // Above is the way the teacher showed me 
 // It will take 33 minutes to fill up the phone
-// Below is the way I did it 
+// Below is the way I did it, same thing different font, still got the same answer 
 let numberOfTotalStorage = 8000 - 3000
 let numberOfMBVideo = 150
 let numberOfFullStorag = numberOfTotalStorage / numberOfMBVideo
