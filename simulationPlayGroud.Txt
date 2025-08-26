@@ -1,0 +1,30 @@
+// Page 3
+numberOfAnts = 500
+antSpeed = 800
+
+
+// Page 4
+environmentCellSize = 10
+numberOfAnts = 13
+pheromoneEvaporationRate = 50
+pheromoneDepositRate = 237
+
+// Page 5
+vhomePheromoneDepositRate = 10
+foodPheromoneDepositRate = 300
+homePheromoneEvaporationRate = 900
+foodPheromoneEvaporationRate = 2
+
+environmentCellSize = 14
+numberOfAnts = 498
+
+numberOfAnts = 20
+antSpeed = 367
+
+// Page 6 
+*The following are responses to the questions therefor it is not in code*
+I can describe the ants beahvior as I saw it in the simualtion on how the react to different phermones when there is food 
+vrs when there is no food. 
+
+The parament that produced successful forging behavior was the foodPheromoneDepositRate, the homePheromoneEvaporationRate
+and the antSpped.
