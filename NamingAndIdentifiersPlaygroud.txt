@@ -90,3 +90,23 @@ let numberOfTotalMinutes = numberofReamaningPhoneStorageMB / numberOfOneMinuteVi
 let numberOfTotalStorage = 8000 - 3000
 let numberOfMBVideo = 150
 let numberOfFullStorag = numberOfTotalStorage / numberOfMBVideo
+
+// Page 13
+let alamarWakeMeUp = 15
+let brushTeeth = 3
+let washFace = 10
+let getDressed = 7
+let packMyBag = 7
+let morningRoutine = alamarWakeMeUp + brushTeeth + washFace + getDressed + packMyBag
+
+// Page 14
+let numberOfOranges = 14
+let numberOfWatermelons = 3
+let palletOfOranges = 100
+let palletOfWatermelons = 200
+let totalAmountOfOranges = numberOfOranges * palletOfOranges
+let totalAmountofWatermelon = numberOfWatermelons * palletOfWatermelons
+let overallWeightCombined = totalAmountOfOranges + totalAmountofWatermelon
+let balanceLoad = overallWeightCombined / 2
+let leftSideOfTruck = balanceLoad   / palletOfOranges
+let RightSideOfTruck = palletOfOranges - leftSideOfTruck
