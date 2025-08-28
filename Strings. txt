@@ -1,0 +1,21 @@
+// Page 3
+// Declare a favoriteMovie constant
+let favoriteMovie = "ThunderBolts (New Avengers)"
+// Declare a favoriteSong constant
+let favoriteSong = "My Future By Billie Eilish"
+
+// Page 5 
+let consoleTest = " Testing, one two three "
+
+// Page 6
+// Declare a firstName constant
+let firstName = "Riley"
+// Declare a lastName constant
+let lastName = "Templeton"
+// Combine the strings into a fullName constant
+let fullName = firstName + " " + lastName
+// Combine your full name with likesYourPostMessage
+let likeYourPostMessage = fullName + " " + likesYourPostMessage 
+
+// Page 7
+let fullName = "Johnny" + " " + "Appleseed"
