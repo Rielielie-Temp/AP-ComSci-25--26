@@ -19,3 +19,39 @@ let likeYourPostMessage = fullName + " " + likesYourPostMessage
 
 // Page 7
 let fullName = "Johnny" + " " + "Appleseed"
+
+// Page 8 
+let favoriteFood = "sushi"
+
+// Change this to why you like it
+let reason = " so good and refreshing"
+
+// Define a string below in the pattern "I like ___ because it is ___."
+let pattern = "I like \(favoriteFood) because it is \(reason)"
+
+// Page 10
+let storyName = "lil jimmy"
+let numberOfDollars = "25"
+let adjectiveGift = " small "
+let nounGift = " toy plane "
+let nounPlace = " worlds "
+let placeShop = "bigget toy shop"
+let postiveEmotion = " very excited "
+let negativeEmotion = " gloomy "
+let noGift = " No small toy planes"
+
+// Page 14
+let thingsLearned = "\(constants) \n \(unicode) \n \(combining) + \n \(interpolation)  \n  \(escaping) \n \(newline)"
+
+// Page 15
+
+let serverResponseToTableTwo = "Let me make sure I've got this right: \(customerOrderFour), \(customerOrderFive), \(customerOrderSix)"
+
+let tableTwoResponse = "Perfect, merci bien."
+
+// Page 16
+let schoolName = " Aquinas "
+let refrain = " OoOoo we are the bue and white \(schoolName) we are the blue and white "
+
+let song = "\(refrain)\n\(refrain)\nYes, \(refrain)"
+
