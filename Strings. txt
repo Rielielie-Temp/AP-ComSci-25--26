@@ -55,3 +55,16 @@ let refrain = " OoOoo we are the bue and white \(schoolName) we are the blue and
 
 let song = "\(refrain)\n\(refrain)\nYes, \(refrain)"
 
+// Page 17 
+let iphoneFullStroageGB = 8
+let MB = 1000
+let iphoneStorageMB = iphoneFullStroageGB * MB
+let usedStroage = 3 * MB
+let reamningStroage = iphoneStorageMB - usedStroage
+let oneminuteVid = 150
+let totalMinuteVideo = reamningStroage / oneminuteVid
+
+let string = " You can record \(totalMinuteVideo) more minutes of video"
+
+// Page 18
+print("Did you know that \(bookTitle) was written by \(authorName)?")
