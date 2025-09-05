@@ -1,0 +1,169 @@
+// Page 2
+// Experiment has me explaining cosntanst and varibles in my life... the following below are those constants and variables 
+Constant: The place I was born (Chattanoga,Tennessee) Varible: Where I live (I move a lot so where I live changes) 
+Varible: My age (currently 16) changes every year Constant: 12 inches in a foot 
+
+ // Page 3
+// Declaring a constant
+let placeOfBirth = "New Jersey"
+
+// Declaring a variable
+var currentLocation = "New Jersey"
+
+// assigning a new value 
+currentLocation = "New York"
+
+// Page 4
+score = 5
+score = score + score
+
+// Page 5
+// += is a combined operation it makes adding and eqauling easier -> score = score + 2  =  score +=2 
+score += 2
+
+let word1 = "Compound"
+let word2 = "assignment"
+let word3 = "is"
+let word4 = "useful"
+let space = " "
+
+var statement = ""
+statement += word1
+statement += space
+statement += word2
+statement += space
+statement += word3
+statement += space
+statement += word4
+
+// Page 9 
+let friendBeverageChoice = "coffee"
+
+driveAcrossTown()
+buyACoffeeMaker()
+findCoffeeGrinder()
+findCoffeeBeans()
+driveHome()
+setUpCoffeeGrinder()
+grindBeans()
+makeFriendDrinkCoffee() 
+
+// Page 10 
+// Scores for each target
+var scoreForGreen = 5
+var scoreForRed = 10
+var scoreForGold = 20
+
+// Player scores
+var scoreForGary = 0
+var scoreForRob = 0
+
+// Game events here
+scoreForGary += scoreForRed
+scoreForGary += scoreForGreen
+scoreForGary += scoreForGold
+
+scoreForRob += scoreForRed
+scoreForRob += scoreForGreen
+scoreForRob += scoreForGold
+
+scoreForGary += scoreForRed
+scoreForGary += scoreForGreen
+scoreForGary += scoreForGold
+
+scoreForRob += scoreForRed
+scoreForRob += scoreForGreen
+scoreForRob += scoreForGold
+
+scoreForRob
+scoreForGary
+
+// Page 12
+list += eggs
+list += newLine
+list += milk
+list += newLine
+list += cheese
+list += newLine
+list += bread
+list += newLine
+list += rice
+
+// Page 13
+var overallScore = 501
+var scoreRound = 0
+let badStart = 0
+let sellingGame = 1
+let pointAvreage = 3
+let startingBetter = 5
+let buildUp = 11
+let buildDown = 6
+let shineNotYet = 15
+let clucthUp = 20
+let maskOff = 50
+let statementOne =  " its going to be a long game for you buddy"
+let statementTwo = "Yea maybe your just warming up... or that was prue luck "
+let statementThree = "hey look at at that more consitent, but that doesnt mean your going to beat me I'm still in the lead"
+let statementFour = " dang you got so close to having a good a round"
+let statementFive = " ... that was unbeliveable that comeback was insane I can't tell if that was luck or you actually can play "
+scoreRound = overallScore
+overallScore += badStart
+overallScore += badStart
+overallScore += badStart
+overallScore -= sellingGame
+overallScore -= sellingGame
+overallScore -= sellingGame
+
+// end of Round 1 moving on to Round 2
+
+statementOne
+overallScore
+overallScore -= sellingGame
+overallScore -= pointAvreage
+overallScore -= pointAvreage
+overallScore -= maskOff
+overallScore -= sellingGame
+overallScore -= buildUp
+overallScore -= buildDown
+statementTwo
+
+// end of Round 2 moving on to round 3
+
+overallScore
+overallScore -= shineNotYet
+overallScore -= startingBetter
+overallScore -= clucthUp
+overallScore -= buildUp
+overallScore -= buildUp
+overallScore -= startingBetter
+
+// end of Round 3 moving on to Round 4
+
+overallScore
+overallScore -= clucthUp
+overallScore -= buildUp
+overallScore -= buildUp
+overallScore -= buildUp
+overallScore -= buildUp
+overallScore -= buildDown
+overallScore -= shineNotYet
+statementThree
+
+// end of Round 4 on to Round 5
+overallScore
+overallScore -= clucthUp
+overallScore -= clucthUp
+overallScore -= shineNotYet
+overallScore -= maskOff
+overallScore -=  buildDown
+overallScore -= buildDown
+statementFour
+
+// end of Round 5 on to Round 6
+overallScore
+overallScore -= maskOff
+overallScore -= maskOff
+overallScore -= maskOff
+overallScore -= pointAvreage
+overallScore -= sellingGame
+statementFive
