@@ -1,0 +1,29 @@
+// Structure of MadLib
+Today I woke up and discovered a giant (animal) in my (room of the house).
+It was wearing a (piece of clothing) and eating a giant (food) while humming the song (song title).
+I tried to chase it away with a (object), but instead it shouted
+“(silly phrase)!” and jumped onto my (piece of furniture).
+Then my (family member) walked in, looked at the chaos, and calmly said
+“This is nothing compared to the time I fought a (mythical creature) with only a (random household item).”
+At that point I decided the only solution was to (verb) until everything smelled like (weird smell).
+Needless to say it was the most (adjective) Tuesday of my life.
+
+// to make sure it is input correctly 
+func prompt(_ message: String) -> String {
+    print(message, terminator: " ")
+    return readLine() ?? ""
+    
+    let animal = prompt("ant-eater:")
+    let room = prompt("living room:")
+    let clothing = prompt("polkadot dress:")
+    let food = prompt("ant pasta:")
+    let song = prompt("Rock That Body by Black Eyed Peas:")
+    let object = prompt("broom:")
+    let phrase = prompt("Im not a witch!:") 
+    let furniture = prompt("couch:")
+    let familyMember = prompt("my little sister:")
+    let creature = prompt("King of Ants:" )
+    let housedHoldItem = prompt("pan:")
+    let verb = prompt("bleach my whole entire house:")
+    let smell = prompt("a swimming pool:") 
+    let adjective = prompt( "eccentric")
